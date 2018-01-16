@@ -10,7 +10,7 @@ Clone into the `guppy-gae` repository from a directory of your choice:
 
 If you don't already have the GAE SDK installed, then you will need to download and install it:
 
-    https://cloud.google.com/sdk/docs/
+    <https://cloud.google.com/sdk/docs/>
    
 Once you've cloned into the repository, you will need to create a `.war` file:
 
@@ -30,7 +30,7 @@ Edit `WEB-INF/appengine-web.xml` and add your Google application info:
 
     $ emacs WEB-INF/appengine-web.xml
 
-    ``` xml
+``` xml
     <?xml version="1.0" encoding="utf-8"?>
     <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
         <application>_your_app_id_</application><!-- unused for Cloud SDK based tooling -->
@@ -38,7 +38,7 @@ Edit `WEB-INF/appengine-web.xml` and add your Google application info:
   	 <threadsafe>true</threadsafe>
   	 <runtime>java8</runtime><!-- required for ring-servlet library --> 
     </appengine-web-app>
-    ```
+```
 
 Now you should be all set to test!
 
@@ -51,7 +51,7 @@ From the project's `target/war` directory, run `dev_appserver.sh`:
 
 You should see something like this in your console:
 
-    ```
+```
     Executing [/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java, -D--enable_all_permissions=true, -Duse_jetty9_runtime=true, -Dfile.encoding=UTF-8, -classpath, /home/user/.appengine/appengine-java-sdk-1.9.60/lib/appengine-tools-api.jar, com.google.appengine.tools.development.DevAppServerMain, --property=kickstart.user.dir=/home/user/Documents/clojure/guppy-gae/target/war, --no_java_agent, /home/user/Documents/clojure/guppy-gae/target/war/.]
     2018-01-15 20:37:53.936:INFO::main: Logging initialized @971ms
     2018-01-15 20:37:54.095:INFO:oejs.Server:main: jetty-9.3.18.v20170406
@@ -65,9 +65,9 @@ You should see something like this in your console:
     INFO: The admin console is running at http://localhost:8080/_ah/admin
     Jan 15, 2018 8:37:56 PM com.google.appengine.tools.development.DevAppServerImpl doStart
     INFO: Dev App Server is now running
-    ```
+```
 
-Success! Now fire up your browser and navigate to `http://localhost:8080/`
+Success! Now fire up your browser and navigate to `<http://localhost:8080/>`
 
 ## Deployment
 
