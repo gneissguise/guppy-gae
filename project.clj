@@ -12,5 +12,3 @@
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
   :ring {:handler guppy-gae.core/handler})
-
-
