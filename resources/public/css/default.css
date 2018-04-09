@@ -1,0 +1,72 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding: 50px;
+    background:
+    repeating-linear-gradient(190deg, rgba(0, 128, 75, 0.5) 40px,
+			      rgba(0, 72, 255, 0.5) 80px, rgba(0, 75, 255, 0.5) 120px,
+			      rgba(0, 105, 225, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+			      rgba(0, 75, 130, 0.5) 240px, rgba(0, 130, 238, 0.5) 280px,
+			      rgba(0, 0, 255, 0.5) 300px),
+    repeating-linear-gradient(-190deg, rgba(0, 0, 255, 0.5) 30px,
+			      rgba(0, 105, 255, 0.5) 60px, rgba(0, 75, 255, 0.5) 90px,
+			      rgba(0, 105, 175, 0.5) 120px, rgba(0, 75, 255, 0.5) 150px,
+			      rgba(0, 75, 130, 0.5) 180px, rgba(0, 130, 238, 0.5) 210px,
+			      rgba(0, 0, 255, 0.5) 230px),
+    repeating-linear-gradient(23deg, cyan 50px, steelblue 100px,
+			      dodgerblue 150px, cadetblue 200px, blue 250px,
+			      indigo 300px, teal 350px, powderblue 370px);
+}
+
+.container {
+    width: auto;
+    max-width: 520px;
+    padding: 0 15px;
+    background: none;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+}
+
+.card {
+    border-radius: .25rem .25rem 0 0;
+}
+
+.card-header {
+    border: none;
+    padding: 24px;
+    font-size: 2em;
+    color: white;
+    font-weight: 600;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fca800+0,fb83fa+100 */
+    background: #fca800; /* Old browsers */
+    background: -moz-linear-gradient(top, #fca800 0%, #fb83fa 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fca800 0%,#fb83fa 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fca800 0%,#fb83fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fca800', endColorstr='#fb83fa',GradientType=0 ); /* IE6-9 */
+}
+
+.card-title {
+    padding: 18px;
+    border: none;
+}
+
+.card-body {
+    padding: 12px 48px 32px 48px;
+    border: none;
+}
+
+.card-footer {
+    padding: 14px;
+    border: none;
+}
+
+.card {
+    box-shadow: 0 0 0.75rem yellow;
+    border: none;
+}
